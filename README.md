@@ -8,6 +8,17 @@ This paper is currently under review, and we will update the paper status here i
 This repository is currently under maintenance, if you are experiencing any problems, please open an issue.
 
 ####### Download
+- git clone https://github.com/yumiaomiao-a/FDML.git
+- cd FDML
 
-git clone https://github.com/yumiaomiao-a/LGRR.git
-cd LGRR
+## Prerequisites:  
+We recommend using the Anaconda to manage the environment.  
+- conda create -n fdml python=3.6  
+- conda activate fdml  
+- conda install -c pytorch pytorch=1.7.1 torchvision=0.5.0  
+
+
+## Dataset Preparation
+You need to download the publicly available face forensics datasets. In this work, we conduct experiments on Celeb-DF and FaceForensics++, their official download links are as follows:
+- https://github.com/yuezunli/celeb-deepfakeforensics
+- https://github.com/ondyari/FaceForensics

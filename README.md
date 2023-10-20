@@ -15,10 +15,10 @@ This repository is currently under maintenance, if you are experiencing any prob
 We recommend using the Anaconda to manage the environment.  
 - conda create -n fdml python=3.6  
 - conda activate fdml  
-- conda install -c pytorch pytorch=1.7.1 torchvision=0.5.0  
+- conda install -c pytorch pytorch=1.7.1 torchvision=0.5.0 numpy=1.19.5 opencv-python=3.4.2.16
 
 
 ## Dataset Preparation
-You need to download the publicly available face forensics datasets. In this work, we conduct experiments on Celeb-DF and FaceForensics++, their official download links are as follows:
+You need to download the publicly available face forensics datasets. In this work, we conduct experiments on Celeb-DF and FaceForensics++ datasets, their official download links are as follows:
 - https://github.com/yuezunli/celeb-deepfakeforensics
 - https://github.com/ondyari/FaceForensics
